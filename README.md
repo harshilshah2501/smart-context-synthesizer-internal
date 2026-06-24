@@ -1,6 +1,11 @@
-# Smart Context Synthesizer
+# Smart Context Synthesizer (internal)
 
 A local API proxy between **Claude Code** / **Cursor** and the Anthropic API. It compacts long session history into cached layers (L1/L2), preserves active tool loops, and exposes a live cost dashboard.
+
+**This is the private internal repository** — corpus analysis, team deployment, and full R&D docs.
+
+**Public OSS release:** [smart-context-synthesizer](https://github.com/harshilshah2501/smart-context-synthesizer)  
+**Repo layout:** [docs/guides/REPO_SPLIT.md](docs/guides/REPO_SPLIT.md)
 
 **Docs:** [docs/README.md](docs/README.md) · **Cheatsheet:** [docs/guides/DOCS_CHEATSHEET.md](docs/guides/DOCS_CHEATSHEET.md)
 

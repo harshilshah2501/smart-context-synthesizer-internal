@@ -8,7 +8,7 @@ All project documentation lives here (single `docs/` tree).
 
 | Doc                                                    | Purpose                              |
 | ------------------------------------------------------ | ------------------------------------ |
-| [guides/PUBLIC_RELEASE.md](guides/PUBLIC_RELEASE.md) | **Before going public** — secrets, stats, git hygiene |
+| [guides/REPO_SPLIT.md](guides/REPO_SPLIT.md) | **Two-repo layout** — public vs internal remotes |
 | [guides/DOCS_CHEATSHEET.md](guides/DOCS_CHEATSHEET.md) | **Cheatsheet** — doc map, commands, FAQ by role |
 | [guides/DEVELOPER_ONBOARDING.md](guides/DEVELOPER_ONBOARDING.md) | **Developers:** install & setup |
 | [guides/Usage.md](guides/Usage.md) | Per-mode offline setup (A / C / D) |
