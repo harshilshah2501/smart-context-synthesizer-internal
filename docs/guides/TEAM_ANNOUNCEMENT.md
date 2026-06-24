@@ -43,7 +43,7 @@ Open a terminal **inside the synced toolkit folder** and run:
 bash run-setup.sh firstname.lastname
 ```
 
-Use your **Azure email local-part** as the ID (e.g. `harshil.shah` for `harshil.shah@motadata.com`).
+Use your **email local-part** as the ID (e.g. `jane.doe` for `jane.doe@company.com`).
 
 Example:
 

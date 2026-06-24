@@ -113,7 +113,7 @@ if [[ ! -f "$INSTALL_DIR/context-synthesizer/scripts/setup_developer.sh" ]]; the
 
 Download failed (HTTP 404 often means the GitHub repo is private).
 
-Use SharePoint / OneDrive instead (Motadata):
+Use SharePoint / OneDrive instead:
   1. Team lead uploads install.sh + context-synthesizer-toolkit-*.tar.gz to SharePoint
   2. After OneDrive sync, run:
      bash "/path/to/OneDrive/.../install.sh" \

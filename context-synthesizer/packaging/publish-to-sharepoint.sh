@@ -88,7 +88,7 @@ cp -f "$TARBALL" "$DEST_TARBALL"
   cp -f "$TARBALL" "$SHARE_DIR/context-synthesizer-toolkit-latest.tar.gz"
 
 cat >"$SHARE_DIR/INSTALL.txt" <<EOF
-Context Synthesizer — Motadata team install
+Context Synthesizer — team install
 ===========================================
 
 Ubuntu 22.04 — pick one way to get the toolkit:

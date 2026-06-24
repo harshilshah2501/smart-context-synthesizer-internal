@@ -11,7 +11,7 @@ SYNC_DIR="${SYNC_DIR:-}"
 
 usage() {
   echo "Usage: $0 <local-onedrive-folder>|rclone-remote:path" >&2
-  echo "  Local:  $0 '/home/you/OneDrive - Motadata/ContextSynthesizer/weekly'" >&2
+  echo "  Local:  $0 '/home/you/OneDrive/ContextSynthesizer/weekly'" >&2
   echo "  rclone: $0 'gdrive:Shared/ContextSynthesizer/weekly'" >&2
   exit 1
 }
