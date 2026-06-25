@@ -41,3 +41,4 @@ context-synthesizer/packaging/build/
 
 # Windows ADS metadata
 **/*:Zone.Identifier
+.claude/
