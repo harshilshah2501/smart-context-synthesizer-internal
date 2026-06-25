@@ -175,8 +175,15 @@ curl -fsSL https://raw.githubusercontent.com/harshilshah2501/smart-context-synth
 | `csynth doctor` | Full routing preflight |
 | `csynth logs` | Tail proxy journal |
 | `csynth restart` | Restart proxy service |
+| `csynth upgrade` | Pull latest from GitHub; refresh venv (preserves `.env`, `stats/`) |
 
 **Reinstall:** `bash install.sh firstname.lastname --reinstall` from toolkit package root.
+
+**Upgrade bootstrap** (if `csynth upgrade` unknown on old installs):
+
+```bash
+bash ~/.local/share/context-synthesizer/context-synthesizer/scripts/upgrade.sh
+```
 
 Full reference: [CSYNTH_QUICK_REFERENCE.md](CSYNTH_QUICK_REFERENCE.md)
 

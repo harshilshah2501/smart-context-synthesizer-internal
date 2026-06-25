@@ -6,12 +6,14 @@ One-page map: **which doc to open**, **which command to run**, **who it's for**.
 
 ## Start here (by role)
 
-| I am… | Read first | Then |
-|-------|------------|------|
-| **Developer** | [DEVELOPER_ONBOARDING.md](DEVELOPER_ONBOARDING.md) | [CSYNTH_QUICK_REFERENCE.md](CSYNTH_QUICK_REFERENCE.md) · [DASHBOARD.md](DASHBOARD.md) |
+| I am… / I want to… | Read first | Then |
+|--------------------|------------|------|
+| **Developer** — install & use proxy | [DEVELOPER_ONBOARDING.md](DEVELOPER_ONBOARDING.md) | [CSYNTH_QUICK_REFERENCE.md](CSYNTH_QUICK_REFERENCE.md) · [DASHBOARD.md](DASHBOARD.md) |
 | **Team lead** | [DEPLOY.md](DEPLOY.md) | [TEAM_ANNOUNCEMENT.md](TEAM_ANNOUNCEMENT.md) · [DASHBOARD.md](DASHBOARD.md) |
 | **R&D / architect** | [context_os_technical_report.md](../context_os_technical_report.md) | [SYNTHESIZER_RND_REPORT.md](../reports/SYNTHESIZER_RND_REPORT.md) |
 | **Offline analysis only** | [Usage.md](Usage.md) | [CLI_STATS_GUIDE.md](CLI_STATS_GUIDE.md) |
+| **Test with Cursor** | [CURSOR_TEST.md](CURSOR_TEST.md) | [DEVELOPER_ONBOARDING.md](DEVELOPER_ONBOARDING.md) |
+| **Announce / HN** | [LAUNCH.md](../LAUNCH.md) | [README.md](../../README.md) |
 
 ---
 
@@ -29,6 +31,8 @@ One-page map: **which doc to open**, **which command to run**, **who it's for**.
 | [CLI_STATS_GUIDE.md](CLI_STATS_GUIDE.md) | Mode A corpus import details | Analyst |
 | [FETCH_BUNDLE.md](FETCH_BUNDLE.md) | Dev machine rsync from build server | Dev sync |
 | [CURSOR_TEST.md](CURSOR_TEST.md) | Cursor IDE + OpenAI shim testing | Cursor users |
+| [RELEASE.md](RELEASE.md) | Build `context-synthesizer-toolkit-*.tar.gz` | Team lead |
+| [LAUNCH.md](../LAUNCH.md) | HN / X / Reddit templates (v0.1.1) | Everyone |
 
 ---
 
@@ -55,8 +59,9 @@ One-page map: **which doc to open**, **which command to run**, **who it's for**.
 cd context-synthesizer-toolkit-latest
 bash run-setup.sh firstname.lastname
 
-# Reinstall / upgrade after team lead publishes
+# Reinstall (wipes install dir) or in-place upgrade after team publish
 bash install.sh firstname.lastname --reinstall
+csynth upgrade   # preserves .env + stats/
 
 # Proxy
 csynth proxy on          # route Claude Code through synthesizer
