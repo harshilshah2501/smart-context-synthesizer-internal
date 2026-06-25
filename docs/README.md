@@ -19,6 +19,7 @@ All project documentation lives here (single `docs/` tree).
 | [guides/DEPLOY.md](guides/DEPLOY.md) | **Team lead** — build tarball, optional shared-drive publish |
 | [guides/TEAM_ANNOUNCEMENT.md](guides/TEAM_ANNOUNCEMENT.md) | Copy-paste rollout message for Slack/email |
 | [guides/CLI_STATS_GUIDE.md](guides/CLI_STATS_GUIDE.md) | Mode A import details                |
+| [guides/LAUNCH.md](guides/LAUNCH.md) | HN / X / Reddit launch templates |
 
 ## Reports (analysis & proof)
 
